@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='flex flex-col gap-12'>
+    <div className='flex flex-col gap-12 md:flex-row md:justify-between'>
       <ul className='flex gap-6 font-lato text-gray-400'>
         <li>
           <a href="#"> Facebook</a>
